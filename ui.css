@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.mainPage{
+    background: linear-gradient(90deg, #00008a 0%, #9900e0 100%);
+    height: 1080px;
+} 
+
+.mainContainer{
+    padding: 10vh 10vh;
+    display: grid;
+    grid-template-columns: 25vh 25vh 25vh 25vh 25vh 25vh 25vh;
+    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh 25vh;
+    gap: 5vh;
+    justify-content: center;
+}
+
+.mainContainer a{   
+    background-color: white;
+    border-radius: .625rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.tictacPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000000 0%, #ffffff 100%);
+    height: 38rem;
+}
+
+.tictacContainer{
+    display: grid;
+    grid-template-columns: 26vh 26vh 26vh;
+    grid-template-rows: 26vh 26vh 26vh;
+    gap: 3vh;
+}
+
+.tictacContainer button{
+    border: .0625rem solid;
+    border-radius: .625rem;
+    cursor: pointer;
+    background-image: center center/contain no-repeat content-box local;
+    font-size: 4.375rem;
+    font-weight: bold;
+}
