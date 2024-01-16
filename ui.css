@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Torus ,sans-serif;
     margin: 0px;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -18,8 +18,8 @@ a{
 .mainContainer{
     padding: 10vh 10vh;
     display: grid;
-    grid-template-columns: 25vh 25vh 25vh 25vh 25vh 25vh 25vh;
-    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh 25vh;
+    grid-template-columns: 25vh 25vh 25vh 25vh 25vh 25vh;
+    grid-template-rows: 25vh 25vh 25vh 25vh 25vh 25vh;
     gap: 5vh;
     justify-content: center;
 }
@@ -31,6 +31,11 @@ a{
     display: flex;
     justify-content: center;
     align-items: end;
+}
+
+.mainContainer a:hover{
+    box-shadow: 0px 0px 20px 0px #000000 inset;
+    transition-duration: 300ms;
 }
 
 .tictacPage{
@@ -53,6 +58,6 @@ a{
     border-radius: .625rem;
     cursor: pointer;
     background-image: center center/contain no-repeat content-box local;
-    font-size: 5.375rem;
+    font-size: 8.375rem;
     font-weight: bold;
 }
